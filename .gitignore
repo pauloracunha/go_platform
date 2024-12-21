@@ -1,0 +1,20 @@
+# Gerado automaticamente para projetos Go
+/bin/
+/pkg/
+/.env
+*.db
+*.log
+*.out
+.idea/
+.vscode/
+.DS_Store
+
+# Dependências e caches
+vendor/
+**/node_modules/
+**/.DS_Store
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.swo
