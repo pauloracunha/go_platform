@@ -4,13 +4,14 @@ Esta é uma API base,desenvolvida em Golang, que pode ser utilizada para iniciar
 
 ## Estrutura do Projeto
 ```
-portal-ong/
+/
 ├── cmd/portal/          # Código principal do aplicativo
 │   └── main.go
 ├── pkg/                 # Pacotes reutilizáveis
 ├── internal/            # Lógica de negócios
 │   ├── handlers/        # Manipuladores de rotas
 │   ├── models/          # Modelos de dados
+|   ├── routes/          # Definição de roteamento
 │   └── services/        # Regras de negócio
 ├── migrations/          # Scripts de migração do banco de dados
 ├── configs/             # Configurações
