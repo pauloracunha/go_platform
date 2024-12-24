@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  db:
+    container_name: portal_ong
+    image: mysql:8.0
+    expose:
+      - "3306/tcp"
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: portal_ong
+      MYSQL_ROOT_PASSWORD: "root"
+    volumes:
+      - ./datadir:/var/lib/mysql
+      - ./initdb:/docker-entrypoint-initdb.d
