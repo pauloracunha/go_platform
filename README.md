@@ -1,6 +1,6 @@
-# portal-ong
+# GO Platform
 
-Este é o backend do Portal para Gestão de ONGs, desenvolvido em Golang.
+Esta é uma API base,desenvolvida em Golang, que pode ser utilizada para iniciar o desenvolvimento de plataformas.
 
 ## Estrutura do Projeto
 ```
@@ -22,7 +22,7 @@ portal-ong/
    ```bash
    go get -u github.com/gorilla/mux
    go get -u gorm.io/gorm
-   go get -u gorm.io/driver/sqlite
+   go get -u gorm.io/driver/mysql
    ```
 2. Execute o projeto:
    ```bash
